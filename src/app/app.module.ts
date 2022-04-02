@@ -8,6 +8,9 @@ import { HomeComponent } from './components/home/home.component';
 import { HTMLComponent } from './components/html/html.component';
 import { AboutComponent } from './components/about/about.component';
 import { LabelComponent } from './components/label/label.component';
+import { SubstringPipe } from './pipes/substring.pipe';
+import { HtmlbasicComponent } from './components/htmlbasic/htmlbasic.component';
+import { HtmlattributesComponent } from './components/htmlattributes/htmlattributes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { LabelComponent } from './components/label/label.component';
     HomeComponent,
     HTMLComponent,
     AboutComponent,
-    LabelComponent
+    LabelComponent,
+    SubstringPipe,
+    HtmlbasicComponent,
+    HtmlattributesComponent
   ],
   imports: [
     BrowserModule,

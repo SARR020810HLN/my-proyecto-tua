@@ -1,12 +1,12 @@
 <h5 class="display-5 fw-bold"> Etiquetas utilizadas en HTML </h5>
 <hr>
 <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div *ngFor="let labe of label let i = index"class="col">
+  <div *ngFor="let labe of label; let i = index"class="col">
     <div class="card text-dark bg-ligth border dark" style="width: 18rem;">
-       <img src="{{labe.img}}" class="card-img-top" alt="...">
+       <img [src]=  "labe.img" class="card-img-top" [alt]="">
        <div class="card-body">
         <h5 class="card-title">{{ labe.nombre }}</h5>
-        <p class="card-text">{{ labe.bio }}</p>
+        <p class="card-text">{{ labe.bio | substring:200}}</p>
         <a [routerLink]="['/label',i]" class="btn btn-primary">Mas Infomación</a>
        </div>
     </div>

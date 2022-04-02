@@ -10,13 +10,11 @@ import { HtmlService } from 'src/app/services/html.service';
 export class LabelComponent implements OnInit {
    label: any;
   constructor(private activatedRoute:ActivatedRoute,
-    private htmlService: HtmlService
-   ) { 
-}
+    private htmlService: HtmlService) { }
 
   ngOnInit(): void {
     this.activatedRoute.params.subscribe((params)=>{
-      //console.log(params["id"])
+      //console.log(params['id']);
    this.label = this.htmlService.getlabe(params['id']);
   console.log(this.label);
 
