@@ -11,6 +11,13 @@ import { LabelComponent } from './components/label/label.component';
 import { SubstringPipe } from './pipes/substring.pipe';
 import { HtmlbasicComponent } from './components/htmlbasic/htmlbasic.component';
 import { HtmlattributesComponent } from './components/htmlattributes/htmlattributes.component';
+import { HtmlcommentsComponent } from './components/htmlcomments/htmlcomments.component';
+import { HtmlelementsComponent } from './components/htmlelements/htmlelements.component';
+import { HtmlheadingsComponent } from './components/htmlheadings/htmlheadings.component';
+import { HtmlparagraphsComponent } from './components/htmlparagraphs/htmlparagraphs.component';
+import { HtmlquotationandcitationelementsComponent } from './components/htmlquotationandcitationelements/htmlquotationandcitationelements.component';
+import { HtmlstylesComponent } from './components/htmlstyles/htmlstyles.component';
+import { HtmltextformattingComponent } from './components/htmltextformatting/htmltextformatting.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,14 @@ import { HtmlattributesComponent } from './components/htmlattributes/htmlattribu
     LabelComponent,
     SubstringPipe,
     HtmlbasicComponent,
-    HtmlattributesComponent
+    HtmlattributesComponent,
+    HtmlcommentsComponent,
+    HtmlelementsComponent,
+    HtmlheadingsComponent,
+    HtmlparagraphsComponent,
+    HtmlquotationandcitationelementsComponent,
+    HtmlstylesComponent,
+    HtmltextformattingComponent
   ],
   imports: [
     BrowserModule,

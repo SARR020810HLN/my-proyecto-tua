@@ -1,13 +1,69 @@
-<h1>Ejemplos HTML Basic </h1>
-<p>En este capítulo mostraremos algunos ejemplos básicos de HTML.
+<!DOCTYPE html>
+<html lang="es">
+   <header>
+      <h1>Ejemplos HTML Basic </h1>
+      <p>En este capítulo mostraremos algunos ejemplos básicos de HTML.
+      
+         No se preocupe si usamos etiquetas que aún no conoce.</p>
+          <hr>
+          <img class="imagen-flex"src="assets/img/imgs/img/HTML Basic.png">
+       <h2> Documentos HTML</h2>
+       <p>
+         HTML (HyperText Markup Language) es el código que se utiliza para estructurar una página web y su contenido. Por ejemplo, el contenido podría estructurarse dentro de un conjunto de párrafos,
+         una lista de puntos con viñetas o usando imágenes y tablas de datos. Como sugiere el título, este artículo le dará una comprensión básica de HTML y sus funciones.
+       </p>
 
-   No se preocupe si usamos etiquetas que aún no conoce.</p>
-    <hr>
-    
- <h2> Documentos HTML</h2>
- <p>
-   Todos los documentos HTML deben comenzar con una declaración de tipo de documento: < !DOCTYPE html >.
+   </header>
+ 
+    <body>
+      <p>
+         Todos los documentos HTML deben comenzar con una declaración de tipo de documento: <span class="negritas">< !DOCTYPE html ></span>.<br>
+         
+             El documento HTML en sí comienza con<span class="negritas">< html > </span> y termina con <span class="negritas">< / html ></span>.<br>
+             
+             La parte visible del documento HTML está entre <span class="negritas">< body ></span> y <span class="negritas">< /body ></span>.</p><br>
+             <hr>
+                <p>
+                  <span class="negritas">< !DOCTYPE html ></span> — tipo de documento. Es un preámbulo obligatorio. En la noche de los tiempos, cuando HTML era joven (alrededor de 1991/92), los doctypes estaban destinados a actuar como enlaces a un conjunto de reglas que la página HTML tenía que seguir para ser considerada un buen HTML, lo que podría significar la verificación automática de errores y otras cosas útiles. Sin embargo, en estos días, no hacen mucho y básicamente solo se necesitan para asegurarse de que su documento se comporte correctamente. Eso es todo lo que necesitas saber por ahora.<br/>
+                  <span class="negritas">< html >< /html > </span>— el elemento <span class="negritas">< html ></span>. Este elemento envuelve todo el contenido de la página completa y, a veces, se lo conoce como el elemento raíz.<br/>
+                  <span class="negritas">< head>< /head> </span>— el elemento <span class="negritas">< head></span>. Este elemento actúa como un contenedor para todo lo que desea incluir en la página HTML que no es el contenido que muestra a los visitantes de su página. Esto incluye cosas como palabras clave y una descripción de la página que desea que aparezca en los resultados de búsqueda, CSS para diseñar nuestro contenido, declaraciones de conjuntos de caracteres y más.<br/>
+                  <span class="negritas">< meta charset="utf-8">:</span> este elemento establece el conjunto de caracteres que debe usar su documento en UTF-8, que incluye la mayoría de los caracteres de la gran mayoría de los idiomas escritos. Esencialmente, ahora puede manejar cualquier contenido de texto que pueda poner en él. No hay razón para no configurar esto y puede ayudar a evitar algunos problemas más adelante.<br/>
+                  <span class="negritas">< title>< /title></span> — el elemento <span class="negritas">< title></span>. Esto establece el título de su página, que es el título que aparece en la pestaña del navegador en la que se carga la página. También se usa para describir la página cuando la marca como favorita.<br/>
+                  <span class="negritas">< body>< /body></span> — el elemento <span class="negritas">< body></span>. Contiene todo el contenido que desea mostrar a los usuarios web cuando visitan su página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles o cualquier otra cosa.<br/>
+                </p>
+                <h4>Ejemplo</h4>
+                <p class="ejemplo">
+                  < !DOCTYPE html> <br>
+                  < html ><br>
+                    < body ><br>
+                      < h1 >My First Heading< /h1 ><br>
+                      < p>My first paragraph.< /p ><br>
+      
+                     < /body><br>
+                  < /html><br>
+      
+                </p>
+      
+                   <hr>
+                   <h4>La Declaración < !DOCTYPE >  </h4>
+                   <p>
+                      
+                    La declaración <span class="negritas">< !DOCTYPE ></span> representa el tipo de documento y ayuda a los navegadores a mostrar correctamente las páginas web.<br>
    
-       El documento HTML en sí comienza con < html > y termina con < / html >.
-       
-       La parte visible del documento HTML está entre < body > y < /body >.</p>   
+                    Solo debe aparecer una vez, en la parte superior de la página (antes de cualquier etiqueta HTML).<br>
+   
+                    La declaración <span class="negritas">< !DOCTYPE > </span>no distingue entre mayúsculas y minúsculas.<br>
+   
+                    La declaración <span class="negritas">< !DOCTYPE > </span>para HTML5 es:<br> 
+                   </p>
+                   <p class="text">< !DOCTYPE html ></p>
+                   <hr>
+                   <a class="btn btn-info" [routerLink]="['/html']"> Regresar...</a>
+    </body>
+  
+</html>
+
+
+
+
+      

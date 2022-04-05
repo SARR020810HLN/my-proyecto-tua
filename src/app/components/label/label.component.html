@@ -1,4 +1,4 @@
-<h2>{{label.nombre}} </h2>
+<body><h2>{{label.nombre}} </h2>
 <hr>
 <div class="row">
     <div class="col-md-4">
@@ -6,6 +6,13 @@
       <div class="d-grid gap-2">
        <a *ngIf="label.nombre === 'HTML Basic'" class="btn btn-info" [routerLink]="['/htmlbasic']"> Saber Mas...</a>
        <a *ngIf="label.nombre === 'HTML Attributes'" class="btn btn-info" [routerLink]="['/htmlattributes']"> Saber Mas...</a>
+       <a *ngIf="label.nombre === 'HTML Comments'" class="btn btn-info" [routerLink]="['/htmlcomments']"> Saber Mas...</a>
+       <a *ngIf="label.nombre === 'HTML Elements'" class="btn btn-info" [routerLink]="['/htmlelements']"> Saber Mas...</a>
+       <a *ngIf="label.nombre === 'HTML Headings'" class="btn btn-info" [routerLink]="['/htmlheadings']"> Saber Mas...</a>
+       <a *ngIf="label.nombre === 'HTML Paragraphs'" class="btn btn-info" [routerLink]="['/htmlparagraphs']"> Saber Mas...</a>
+       <a *ngIf="label.nombre === 'HTML Quotation and Citation Elements'" class="btn btn-info" [routerLink]="['/htmlquotationandcitationelements']"> Saber Mas...</a>
+       <a *ngIf="label.nombre === 'HTML Styles'" class="btn btn-info" [routerLink]="['/htmlstyles']"> Saber Mas...</a>
+       <a *ngIf="label.nombre === 'HTML Text Formatting'" class="btn btn-info" [routerLink]="['/htmltextformatting']"> Saber Mas...</a>
       </div>
     </div>
     <div class="col-md-8">
@@ -15,3 +22,4 @@
         </p>
     </div>
 </div> 
+</body>
