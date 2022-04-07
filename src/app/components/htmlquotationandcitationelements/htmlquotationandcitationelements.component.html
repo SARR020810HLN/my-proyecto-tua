@@ -1,1 +1,85 @@
-<p>htmlquotationandcitationelements works!</p>
+<h1> HTML Quotation and Citation Elements </h1>
+<p> Las citas han sido algo muy bien asentado en HTML desde sus comienzos, puede que debido a su nacimiento en un entorno académico, probablemente el ámbito del conocimiento humano dónde más se utilizan las citas y referencias. </p>
+<hr>
+<br>
+<img class="imagen-flex"src="assets/img/imgs/img/HTML Quotation and Citation Elements.png"> <br><br>
+<h2> HTML <span class="negritas">< blockquote > </span> for Quotations </h2>
+<p> El elemento HTML  <span class="negritas">< blockquote > </span> define una sección que se cita de otra fuente.</p>
+<p> Los navegadores suelen aplicar sangría a los elementos <span class="negritas">< blockquote > </span> </p>
+<h3> Ejemplo </h3>
+<p> <span class="negritas">< p > </span> Los navegadores suelen aplicar sangría a los elementos de comillas en bloque. <span class="negritas">< /p > </span> </p>
+<p> <span class="negritas">< blockquote cite="http://www.worldwildlife.org/who/index.html" > </span><br>
+    Durante casi 60 años, WWF ha estado protegiendo el futuro de la naturaleza. WWF, la organización de conservación líder en el mundo, trabaja en 100 países y cuenta con el apoyo de más de un millón de miembros en los Estados Unidos y cerca de cinco millones en todo el mundo. <br>
+
+    <span class="negritas">< /blockquote > </span> </p>
+<h4> El resultado es el siguiente </h4>
+<p> Los navegadores suelen aplicar sangría a los elementos de comillas en bloque. </p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    Durante casi 60 años, WWF ha estado protegiendo el futuro de la naturaleza. WWF, la organización de conservación líder en el mundo, trabaja en 100 países y cuenta con el apoyo de más de un millón de miembros en los Estados Unidos y cerca de cinco millones en todo el mundo.
+    </blockquote>
+    <hr>
+    <br>
+    <h2> HTML <span class="negritas">< q > </span>  for Short Quotations</h2>
+    <p> La etiqueta HTML  <span class="negritas">< q > </span>  define una cita corta. </p>
+    <p> Browsers normally insert quotation marks around the quotation.</p>
+    <h3> Ejemplo </h3>
+    <p> <span class="negritas">< p > </span> Los navegadores suelen insertar comillas alrededor del elemento q. <span class="negritas">< /p > </span> </p>
+    <p> <span class="negritas">< p > </span> El objetivo de WWF es: <span class="negritas">< q > </span> Construir un futuro donde las personas vivan en armonía con la naturaleza.<span class="negritas">< /q > </span> <span class="negritas">< /p > </span>
+     </p>
+    <h4> El resultado es el siguiente </h4>
+    <p> Los navegadores suelen insertar comillas alrededor del elemento q.</p>
+    <p> El objetivo de WWF es: <q>Construir un futuro donde las personas vivan en armonía con la naturaleza.</q></p>
+    <hr>
+    <br>
+    <h2> HTML <span class="negritas">< abbr > </span> for Abbreviations </h2>
+    <p> La etiqueta HTML  <span class="negritas">< abbr > </span> define una abreviatura o un acrónimo, como "HTML", "CSS", "Sr.", "Dr.", "ASAP", "ATM".</p>
+    <p> Marcar abreviaturas puede brindar información útil a los navegadores, sistemas de traducción y motores de búsqueda.</p>
+    <p> Sugerencia: use el atributo de título global para mostrar la descripción de la abreviatura/acrónimo cuando pase el mouse sobre el elemento. </p>
+     <h3> Ejemplo </h3>
+     <p> <span class="negritas">< p > </span> La<span class="negritas">< abbr title="World Health Organization" > </span> WHO <span class="negritas">< /abbr > </span>  was founded in 1948. <span class="negritas">< /p > </span> </p>
+     <p> <span class="negritas">< p > </span> Marking up abbreviations can give useful information to browsers, translation systems and search-engines. <span class="negritas">< /p > </span> </p>
+     <h5> El resultado es el siguiente </h5>
+     <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+     <p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+     <hr>
+     <br>
+     <h2> HTML <span class="negritas">< address > </span>  for Contact Information </h2>
+     <p> La etiqueta HTML <span class="negritas">< dirección > </span> define la información de contacto del autor/propietario de un documento o artículo.</p>
+     <p> La información de contacto puede ser una dirección de correo electrónico, URL, dirección física, número de teléfono, identificador de redes sociales, etc.</p>
+     <p> El texto en el elemento <span class="negritas">< dirección > </span> generalmente se presenta en cursiva, y los navegadores siempre agregarán un salto de línea antes y después del elemento <span class="negritas">< dirección > </span> </p>
+     <h3> Ejemplo </h3>
+     <p> <span class="negritas">< p > </span>El elemento de dirección HTML define la información de contacto (autor/propietario) de un documento o artículo.<span class="negritas">< /p > </span> </p>
+     <p> <span class="negritas">< address > </span>
+        Written by John Doe.<span class="negritas">< br > </span>
+        Visit us at:<span class="negritas">< br > </span>
+        Example.com <span class="negritas">< br > </span>
+        Box 564, Disneyland <span class="negritas">< br > </span>
+        USA
+        <span class="negritas">< /address > </span></p>
+     <h5> El resultado es el siguiente </h5>
+     <p>El elemento de dirección HTML define la información de contacto (autor/propietario) de un documento o artículo.</p>
+     <address>
+        Written by John Doe.<br> 
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+        </address>
+        <hr>
+        <br>
+        <h2> HTML <span class="negritas">< bdo > </span> for Bi-Directional Override</h2>
+        <p> BDO significa anulación bidireccional. </p>
+        <p> La etiqueta HTML <span class="negritas">< bdo > </span> se utiliza para anular la dirección del texto actual: </p>
+        <h3> Ejemplo </h3>
+        <p> <span class="negritas">< p > </span>Si su navegador admite anulación bidireccional (bdo), la siguiente línea se escribirá de derecha a izquierda (rtl): <span class="negritas">< /p > </span> </p>
+        <p> <span class="negritas">< bdo dir="rtl" > </span> Esta línea se escribirá de derecha a izquierda <span class="negritas">< /bdo > </span> </p>
+        <h5> El resultado es el siguiente </h5>
+        <p>Si su navegador admite anulación bidireccional (bdo), la siguiente línea se escribirá de derecha a izquierda (rtl):</p>
+        <bdo dir="rtl">Esta línea se escribirá de derecha a izquierda</bdo>
+        <hr>
+        <br>
+        <a class="btn btn-info" [routerLink]="['/html']"> Regresar...</a>
+
+
+
+

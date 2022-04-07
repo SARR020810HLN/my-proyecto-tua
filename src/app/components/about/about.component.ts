@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { HtmlService } from 'src/app/services/html.service';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  basic: any[] = [];
+  constructor(private htmlservice: HtmlService) { }
 
   ngOnInit(): void {
-  }
+    this.basic = this.htmlservice.getlabel();
+    console.log(this.basic);
 
+  }
 }

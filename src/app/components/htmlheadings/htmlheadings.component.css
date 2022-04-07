@@ -1,0 +1,22 @@
+.ejemplo{
+
+    background-image: linear-gradient(to left, violet, indigo, green, black, brown, blue , red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.text{
+    font-weight: bold;
+    color: blue;
+}
+.negritas{
+    color: red;
+     font-weight: bold;
+
+}
+.imagen-flex{
+    max-width: 600px;
+    width: 90%; 
+    margin-left: 50px;
+}

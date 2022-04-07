@@ -1,0 +1,42 @@
+.ejemplo{
+
+    background-image: linear-gradient(to left, violet, indigo, green, black, brown, blue , red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.text{
+    font-weight: bold;
+    color: blue;
+}
+.negritas{
+    color: red;
+     font-weight: bold;
+
+}
+.imagen-flex{
+    max-width: 600px;
+    width: 90%; 
+    margin-left: 50px;
+}
+.empresa{max-width: 500px;
+    width: 100%;
+}
+.empresa th,
+.empresa td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.empresa th{
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+}
+.empresa tbody tr:nth-child(odd){
+    background-color: beige;
+}
+.empresa tbody tr:nth-child(even){
+    background-color: darkgray;
+}

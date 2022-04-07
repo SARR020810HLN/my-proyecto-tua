@@ -1,1 +1,60 @@
-<p>htmlstyles works!</p>
+<h2> Estilos HTML</h2>
+<p> El atributo de estilo HTML se usa para agregar estilos a un elemento, como color, fuente, tamaño y más. Una hoja de estilo es un archivo de extensión *. CSS (CSS, Cascading Style Sheets = Hojas de estilo) que contempla definiciones de formato (tipo de fuente, tamaño, color de la fuente, color de fondo, párrafos, etc) de las distintas etiquetas que forman una página *. HTML. </p>
+<hr>
+<img class="imagen-flex"src="assets/img/imgs/img/HTML Styles.png"> <br><br>
+<h3> Ejemplo </h3>
+<p> <span class="negritas">< p > </span> Este es un parrafo normal <span class="negritas">< /p > </span> <br>
+<span class="negritas">< p > </span>  style="color:red;"> Este es un parrafo en rojo  <span class="negritas">< /p > </span> <br>
+<span class="negritas">< p > </span> style="color:blue;"> Este es un parrafo en azul <span class="negritas">< /p > </span> <br>
+<span class="negritas">< p > </span> style="font-size:50px;"> Este es un parrafo grande <span class="negritas">< /p > </span> </p> <br>
+<h4> Este es el resultado </h4>
+<p> Este es un parrafo normal</p>
+<p style="color:red;"> Este es un parrafo rojo </p>
+<p style="color:blue;"> Este es un parrafo azul</p>
+<p style="font-size:50px;"> Este es un parrafo grande</p>
+<hr>
+<br>
+<h2> Background Color </h2>
+<p> La propiedad CSS background-color define el color de fondo de un elemento HTML. </p>
+<h3> Ejemplo </h3>
+<span class="negritas">< !DOCTYPE html > </span> <br>
+<span class="negritas">< html > </span> <br>
+    <span class="negritas">< body style="background-color:powderblue;" > </span> <br>
+
+        <span class="negritas">< h1 > </span> Este es un encabezado <span class="negritas">< /h1 > </span> <br>
+            <span class="negritas">< p > </span> Este es un parrafo <span class="negritas">< /p > </span> <br>
+
+                <span class="negritas">< /body > </span> <br>
+                    <span class="negritas">< /html > </span> <br> <br>
+<h4> Este es el resultado </h4>
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+<h1> Este es un encabezado </h1>
+<p> Este es un texto </p>
+</body>
+</html>
+<hr>
+<br>
+<h2> Text Size </h2>
+<p> La propiedad CSS font-size define el tamaño del texto de un elemento HTML: </p>
+<br>
+<h3> Ejemplo </h3>
+<p> <span class="negritas">< h1 style="font-size:300%;"> </span> Este es un encabezado <span class="negritas">< /h1 > </span><br>
+    <span class="negritas">< p style="font-size:160%;" > </span> Este es un texto <span class="negritas">< /p > </span> </p> <br>
+    <h4> Este es el resultado </h4>
+    <h1 style="font-size:300%;"> Este es un encabezado </h1>
+<p style="font-size:160%;"> Este es un texo </p>
+<hr>
+<br>
+<h2> Text Alignment </h2>
+<p> La propiedad CSS text-align define la alineación horizontal del texto para un elemento HTML: </p>
+<h4> Ejemplo </h4>
+<p><span class="negritas">< h1 style="text-align:center;" > </span> Encabezado centrado <span class="negritas">< /h1 > </span> <br>
+    <span class="negritas">< p style="text-align:center;" > </span> Texto centrado. <span class="negritas">< /p > </span> </p> <br>
+    <h4> Este es el resultado </h4>
+    <h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+<hr>
+<br>
+<a class="btn btn-info" [routerLink]="['/html']"> Regresar...</a>
